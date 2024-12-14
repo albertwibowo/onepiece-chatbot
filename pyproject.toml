@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "src"
+description = "Chatbot to talk about onepiece"
+package-mode = true
+version = "0.0.0"
+license = "Copyright"
+authors = ["Albert Wibowo <albert14wibowo@duck.com>"]
+
+
+[tool.poetry.dependencies]
+python = "3.10.9"
+chainlit = "1.3.2"
+langchain = "0.3.11"
+langchain-community = "0.3.11"
+langchain-ollama = "0.2.1"
+ollama = "0.4.4"
+chromadb = "0.5.23"
+Scrapy = "2.12.0"
+jsonlines = "4.0.0"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+
+[build-system]
+requires = ["poetry-core>=1.7.1", "poetry-dynamic-versioning"]
+build-backend = "poetry_dynamic_versioning.backend"
