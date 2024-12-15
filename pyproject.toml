@@ -17,6 +17,10 @@ ollama = "0.4.4"
 chromadb = "0.5.23"
 Scrapy = "2.12.0"
 jsonlines = "4.0.0"
+pydantic = "2.10.1"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
 
 [tool.poetry-dynamic-versioning]
 enable = false
